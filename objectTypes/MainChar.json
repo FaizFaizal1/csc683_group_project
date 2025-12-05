@@ -4,7 +4,17 @@
 	"sid": 767080590908299,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "facingRight",
+			"type": "boolean",
+			"initialValue": "true",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 998877665544332
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "EightDir",
