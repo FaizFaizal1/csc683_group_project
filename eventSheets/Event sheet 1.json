@@ -5,26 +5,193 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "key-is-down",
-					"objectClass": "Keyboard",
-					"sid": 902742297485446,
-					"parameters": {
-						"key": 39
-					}
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 113241643594937
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 815690424906757,
+			"children": [
 				{
-					"id": "set-animation",
-					"objectClass": "MainChar",
-					"sid": 210842708735882,
-					"parameters": {
-						"animation": "\"walk\"",
-						"from": "beginning"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 771796265657640,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "MainChar",
+							"sid": 374310176822493,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "MainChar",
+							"sid": 651696649008045,
+							"parameters": {
+								"animation": "\"walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "MainChar",
+							"sid": 376010238655258,
+							"parameters": {
+								"instance-variable": "facingRight",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 534280342753201
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 739920527522149,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "MainChar",
+							"sid": 320466878793496,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "MainChar",
+							"sid": 342560947388961,
+							"parameters": {
+								"animation": "\"walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "MainChar",
+							"sid": 534231665671063,
+							"parameters": {
+								"instance-variable": "facingRight",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 280780187521983
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "MainChar",
+							"sid": 525414110996642,
+							"parameters": {
+								"instance-variable": "facingRight"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "MainChar",
+							"sid": 399274963923474,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "MainChar",
+							"sid": 152318509930402,
+							"parameters": {
+								"animation": "\"walk\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 568940207579939
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "MainChar",
+							"sid": 421293861791629,
+							"parameters": {
+								"instance-variable": "facingRight"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "MainChar",
+							"sid": 622911016737453,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "MainChar",
+							"sid": 619305030609731,
+							"parameters": {
+								"animation": "\"walk\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 781760265469380
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-speed",
+							"objectClass": "MainChar",
+							"sid": 596672074345922,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"comparison": 3,
+								"speed": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "MainChar",
+							"sid": 233738685584514,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 247574081560132
 				}
-			],
-			"sid": 789369703021750
+			]
 		}
 	],
 	"sid": 205719537066432
