@@ -5,4 +5,4 @@ ts-defs
 *.tmp
 *.DS_Store
 Thumbs.db
-proj/*
+proj/
