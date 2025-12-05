@@ -1,2 +1,7 @@
 *.uistate.json
 ts-defs
+*.autosave
+*.backup
+*.tmp
+*.DS_Store
+Thumbs.db
