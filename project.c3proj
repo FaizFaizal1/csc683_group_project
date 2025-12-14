@@ -61,7 +61,10 @@
 		"items": [
 			"MainChar",
 			"Mouse",
-			"Keyboard"
+			"Keyboard",
+			"OfficeWorker",
+			"EmailP1",
+			"BlackMarket"
 		],
 		"subfolders": []
 	},

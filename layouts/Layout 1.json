@@ -18,7 +18,9 @@
 					"uid": 2,
 					"sid": 585001603379405,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"facingRight": false
+					},
 					"behaviors": {
 						"8Direction": {
 							"properties": {
@@ -56,12 +58,123 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 458,
-						"y": 203,
+						"x": 490,
+						"y": 149,
 						"width": 217,
 						"height": 266,
 						"originX": 0.5118421052631579,
 						"originY": 0.5075503355704698,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OfficeWorker",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Office Worker - Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"sid": 313872305419332,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 313872305419332,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 745,
+						"y": 150,
+						"width": 188.94380587484036,
+						"height": 251.67790262172286,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EmailP1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "EmailP1 - Walk",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
+					"sid": 593922314863551,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 593922314863551,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 185,
+						"y": 156,
+						"width": 279,
+						"height": 212,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BlackMarket",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "BlackMarket - Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"sid": 286115488356261,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 286115488356261,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 188,
+						"y": 392,
+						"width": 198,
+						"height": 203,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

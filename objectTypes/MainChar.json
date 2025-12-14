@@ -8,10 +8,7 @@
 		{
 			"name": "facingRight",
 			"type": "boolean",
-			"initialValue": "true",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
+			"show": true,
 			"sid": 998877665544332
 		}
 	],
